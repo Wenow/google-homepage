@@ -1,0 +1,40 @@
+<ul>
+    <li><a href="default.asp">About</a></li>
+    <li><a href="news.asp">Store</a></li>
+    <li><a href="contact.asp">Gmail</a></li>
+    <li><a href="about.asp">Images</a></li>
+</ul>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+    }
+</style>
+<img src="google.png" alt="google logo" class="center">
+<div class="center">
+    <span class="fa fa-search form-control-feedback"></span>
+    <input type="text" class="form-control" placeholder="Search">
+</div>
+<button class="center" ng-click="launch('error')">Search Google</button>
+<button class="center" ng-click="launch('error')">I'm Feeling Lucky</button>
